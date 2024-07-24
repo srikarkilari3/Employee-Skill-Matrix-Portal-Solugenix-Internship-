@@ -1,0 +1,35 @@
+.user-list-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-list-table th, .user-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .user-list-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .user-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-list-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .user-list-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+  }
